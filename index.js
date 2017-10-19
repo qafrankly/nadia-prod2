@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-
+import ReactDOM from 'react-websocket'
 class RandomTest extends Component {
   static PropTypes = {
     h1: PropTypes.string,
